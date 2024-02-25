@@ -1,3 +1,7 @@
+# Environment
+Ren`Py 8.2
+Windows 10
+
 # Steps
 `pause <delay>` in a loop works when progressing through a scene normally, but saves created during the loop cause a `Possible Infinite Loop Exception` on load.
 
