@@ -37,3 +37,7 @@ build/
 # Never check in keystores #
 ############################
 *.keystore
+
+# Debug log #
+#############
+debug.txt

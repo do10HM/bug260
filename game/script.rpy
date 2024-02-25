@@ -1,5 +1,11 @@
 ﻿# The script of the game goes in this file.
 
+init python:
+    import datetime
+
+define config.developer = True
+define config.log = "debug.txt"
+
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
@@ -28,6 +34,7 @@ label start:
 
     $ renpy.suspend_rollback(True)
     label loop:
+        $ renpy.log("In the loop!" + str(datetime.datetime.now()))
         show eileen sad
         pause 1
         show eileen happy
