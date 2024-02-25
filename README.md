@@ -1,5 +1,5 @@
 # Steps
-`pause <delay>` in a loop causes a `Possible Infinite Loop Exception` on load.
+`pause <delay>` in a loop works when progressing through a scene normally, but saves created during the loop cause a `Possible Infinite Loop Exception` on load.
 
 Steps to Reproduce:
 1. Click Start.
